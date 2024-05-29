@@ -1,0 +1,14 @@
+[16:48:46] [INIT] KubeJS 2001.6.5-build.7; MC 2001 forge
+[16:48:46] [INIT] Loaded plugins:
+[16:48:46] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[16:48:46] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[16:48:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[16:48:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[16:48:46] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:48:46] [INFO] example.js#5: Hello, World! (Loaded server scripts)
+[16:48:46] [INFO] Loaded script server_scripts:example.js in 0.0 s
+[16:48:46] [INFO] Loaded 1/1 KubeJS server scripts in 0.008 s with 0 errors and 0 warnings
+[16:48:46] [INFO] Scripts loaded
+[16:48:46] [WARN] Due to the way Minecraft resource loading works, KubeJS' server.log may not contain everything that happened in your server scripts on initial world creation.
+[16:48:46] [WARN] You can still see the full log (including past reloads) in your latest.log file.
+[16:48:53] [INFO] Server resource reload complete!

@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "6f7c739f61e338d7abe83705845f798a"
+	name: "TeriIM#6f7c739f"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
