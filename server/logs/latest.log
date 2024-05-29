@@ -1,0 +1,787 @@
+[22:34:03] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[22:34:03] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.11 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
+[22:34:04] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22:34:04] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Teri/AppData/Roaming/PrismLauncher/instances/Sorcista%20Lernejo%20server/minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23112!/ Service=ModLauncher Env=SERVER
+[22:34:05] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[22:34:05] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: C:\Users\Teri\AppData\Roaming\PrismLauncher\instances\Sorcista Lernejo server\minecraft\mods\geckolib-forge-1.20.1-4.4.4.jar
+[22:34:05] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 21 dependencies adding them to mods collection
+[22:34:07] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[22:34:07] [main/ERROR] [mixin]: Mixin config yacl.mixins.json does not specify "minVersion" property
+[22:34:07] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments []
+[22:34:08] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Patching FishingHook#catchingFish
+[22:34:08] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[22:34:08] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[22:34:08] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[22:34:08] [main/WARN] [mixin]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[22:34:08] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[22:34:08] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[22:34:09] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[22:34:09] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[22:34:09] [main/INFO] [memoryleakfix]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[22:34:10] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[22:34:12] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[22:34:14] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[22:34:14] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo]: Patching IForgeItemStack#getEnchantmentLevel
+[22:34:14] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[22:34:16] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Patching FishingHook#catchingFish
+[22:34:17] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[22:34:17] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[22:34:18] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[22:34:18] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[22:34:18] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.2.32, for MC 1.20.1 with MCP 20230612.114412
+[22:34:18] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.2.32 Initialized
+[22:34:18] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.105 Initialized
+[22:34:19] [modloading-worker-0/INFO] [KubeJS]: Loaded common.properties
+[22:34:19] [modloading-worker-0/INFO] [KubeJS]: Loaded dev.properties
+[22:34:19] [modloading-worker-0/INFO] [KubeJS]: Looking for KubeJS plugins...
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[22:34:19] [modloading-worker-0/INFO] [KubeJS]: Found plugin source kubejs
+[22:34:19] [modloading-worker-0/WARN] [KubeJS]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[22:34:19] [modloading-worker-0/WARN] [KubeJS]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[22:34:19] [modloading-worker-0/INFO] [KubeJS]: Found plugin source ftbxmodcompat
+[22:34:19] [modloading-worker-0/WARN] [KubeJS]: Plugin dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin does not have required mod ftbfiltersystem loaded, skipping
+[22:34:19] [modloading-worker-0/INFO] [KubeJS]: Done in 38.01 ms
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbteams:open_gui
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbteams:update_settings
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbteams:send_message
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbteams:create_party
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbteams:player_gui_operation
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbchunks:request_map_data
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbchunks:sync_tx
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbchunks:server_config_request
+[22:34:19] [modloading-worker-0/INFO] [FTB XMod Compat]: [FTB Quests] Enabled KubeJS integration
+[22:34:19] [modloading-worker-0/INFO] [FTB XMod Compat]: [FTB Chunks] Enabled KubeJS integration
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:submit_task
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:claim_reward
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:get_emergency_items
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:toggle_pinned
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:force_save
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:set_custom_image
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:change_progress
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:create_object
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:create_task_at
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:delete_object
+[22:34:19] [modloading-worker-0/INFO] [Rhino Script Remapper]: Loading Rhino Minecraft remapper...
+[22:34:19] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties]: Rhino properties loaded.
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:edit_object
+[22:34:19] [modloading-worker-0/INFO] [Rhino Script Remapper]: Loading mappings for 1.20.1
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:move_chapter
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:move_quest
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:change_chapter_group
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:move_chapter_group
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:copy_quest
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:sync_structures_request
+[22:34:19] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id ftbquests:request_team_data
+[22:34:19] [modloading-worker-0/INFO] [YetAnotherConfigLib]: Config file 'C:\Users\Teri\AppData\Roaming\PrismLauncher\instances\Sorcista Lernejo server\minecraft\config\yacl.json5' does not exist. Creating it with default values.
+[22:34:19] [modloading-worker-0/INFO] [YetAnotherConfigLib]: Serializing class dev.isxander.yacl3.platform.YACLConfig to 'C:\Users\Teri\AppData\Roaming\PrismLauncher\instances\Sorcista Lernejo server\minecraft\config\yacl.json5'
+[22:34:19] [modloading-worker-0/INFO] [com.cupboard.Cupboard]: Loaded config for: cupboard.json
+[22:34:19] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge]: Kotlin For Forge Enabled!
+[22:34:19] [modloading-worker-0/INFO] [Rhino Script Remapper]: Done in 0,159 s
+[22:34:20] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id dimdoors:server/c5e0ff8556d73fd99e08cadf0276e74d
+[22:34:20] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id dimdoors:server/1f03bbe6451e3ab4b0f46844399676ae
+[22:34:20] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class com/mojang/blaze3d/vertex/PoseStack for invalid dist DEDICATED_SERVER
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registered bogey styles from railways
+[22:34:20] [modloading-worker-0/INFO] [KubeJS Startup]: example.js#5: Hello, World! (Loaded startup scripts)
+[22:34:20] [modloading-worker-0/INFO] [KubeJS Startup]: Loaded script startup_scripts:example.js in 0.091 s
+[22:34:20] [modloading-worker-0/INFO] [KubeJS Startup]: Loaded 1/1 KubeJS startup scripts in 0.548 s with 0 errors and 0 warnings
+[22:34:20] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id kubejs:send_data_from_client
+[22:34:20] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id kubejs:first_click
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering data fixers
+[22:34:20] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder]: 0 Datafixer optimizations took 1 milliseconds
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Hex Casting
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Oh The Biomes You'll Go
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Blue Skies
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Twilight Forest
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Biomes O' Plenty
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Nature's Spirit
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Dreams and Desires
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for Quark
+[22:34:20] [modloading-worker-0/INFO] [Railways]: Registering tracks for TerraFirmaCraft
+[22:34:23] [main/INFO] [Moonlight]: Initialized block sets in 18ms
+[22:34:23] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / dimdoors:monolith] was not realized!
+[22:34:23] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / dimdoors:monolith] was not realized!
+[22:34:23] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl]: Registry entry listened Registry Entry [minecraft:entity_type / dimdoors:monolith] was not realized!
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Configuration file C:\Users\Teri\AppData\Roaming\PrismLauncher\instances\Sorcista Lernejo server\minecraft\config\sophisticatedcore-common.toml is not correct. Correcting
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key common.enabledItems was corrected from null to its default, []. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Configuration file C:\Users\Teri\AppData\Roaming\PrismLauncher\instances\Sorcista Lernejo server\minecraft\config\balm-common.toml is not correct. Correcting
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleBoolean was corrected from null to its default, true. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleInt was corrected from null to its default, 42. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleString was corrected from null to its default, Hello World. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleMultilineString was corrected from null to its default, Hello World. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleEnum was corrected from null to its default, Hello. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleStringList was corrected from null to its default, [Hello, World]. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleIntList was corrected from null to its default, [12, 24]. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleEnumList was corrected from null to its default, [Hello, World]. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleCategory was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleCategory.innerField was corrected from null to its default, I am inside. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key exampleCategory.exampleFloat was corrected from null to its default, 42.84000015258789. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Configuration file C:\Users\Teri\AppData\Roaming\PrismLauncher\instances\Sorcista Lernejo server\minecraft\config\waystones-common.toml is not correct. Correcting
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.inverseXpCost was corrected from null to its default, false. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.blocksPerXpLevel was corrected from null to its default, 1000. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.minimumBaseXpCost was corrected from null to its default, 0.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.maximumBaseXpCost was corrected from null to its default, 3.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.xpCostPerLeashed was corrected from null to its default, 0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.dimensionalWarpXpCost was corrected from null to its default, 3. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.globalWaystoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.warpStoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.waystoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.sharestoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.portstoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.warpPlateXpCostMultiplier was corrected from null to its default, 0.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key xpCost.inventoryButtonXpCostMultiplier was corrected from null to its default, 0.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.restrictToCreative was corrected from null to its default, false. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.restrictRenameToOwner was corrected from null to its default, false. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.generatedWaystonesUnbreakable was corrected from null to its default, false. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.transportLeashed was corrected from null to its default, true. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.transportLeashedDimensional was corrected from null to its default, true. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.leashedDenyList was corrected from null to its default, [minecraft:wither]. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.dimensionalWarp was corrected from null to its default, ALLOW. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.dimensionalWarpAllowList was corrected from null to its default, []. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.dimensionalWarpDenyList was corrected from null to its default, []. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.allowWaystoneToWaystoneTeleport was corrected from null to its default, true. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key restrictions.globalWaystoneSetupRequiresCreativeMode was corrected from null to its default, true. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key cooldowns was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key cooldowns.globalWaystoneCooldownMultiplier was corrected from null to its default, 1.0. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key cooldowns.warpStoneCooldown was corrected from null to its default, 30. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key cooldowns.warpStoneUseTime was corrected from null to its default, 32. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key cooldowns.warpPlateUseTime was corrected from null to its default, 20. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key cooldowns.scrollUseTime was corrected from null to its default, 32. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key cooldowns.inventoryButtonCooldown was corrected from null to its default, 300. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key inventoryButton was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key inventoryButton.inventoryButton was corrected from null to its default, . 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key inventoryButton.warpButtonX was corrected from null to its default, 58. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key inventoryButton.warpButtonY was corrected from null to its default, 60. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key inventoryButton.creativeWarpButtonX was corrected from null to its default, 88. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key inventoryButton.creativeWarpButtonY was corrected from null to its default, 33. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key worldGen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key worldGen.worldGenStyle was corrected from null to its default, BIOME. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key worldGen.frequency was corrected from null to its default, 25. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key worldGen.dimensionAllowList was corrected from null to its default, [minecraft:overworld, minecraft:the_nether, minecraft:the_end]. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key worldGen.dimensionDenyList was corrected from null to its default, []. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key worldGen.nameGenerationMode was corrected from null to its default, PRESET_FIRST. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key worldGen.customWaystoneNames was corrected from null to its default, []. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key worldGen.spawnInVillages was corrected from null to its default, true. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key worldGen.forceSpawnInVillages was corrected from null to its default, false. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key client.disableTextGlow was corrected from null to its default, false. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key compatibility.displayWaystonesOnJourneyMap was corrected from null to its default, true. 
+[22:34:23] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key compatibility.preferJourneyMapIntegration was corrected from null to its default, true. 
+[22:34:24] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Configuration file C:\Users\Teri\AppData\Roaming\PrismLauncher\instances\Sorcista Lernejo server\minecraft\config\sophisticatedbackpacks-common.toml is not correct. Correcting
+[22:34:24] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:24] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key common.chestLootEnabled was corrected from null to its default, true. 
+[22:34:24] [modloading-worker-0/WARN] [Apotheosis : Enchantment]: Enchantment dimdoors:string_theory has min/max power 10000/200 at level 1, making this level unobtainable.
+[22:34:24] [modloading-worker-0/INFO] [com.betterchunkloading.BetterChunkLoading]: betterchunkloading mod initialized
+[22:34:24] [modloading-worker-0/INFO] [com.chunksending.ChunkSending]: chunksending mod initialized
+[22:34:24] [modloading-worker-0/INFO] [FTB Library]: Setting game stages provider implementation to: KubeJS Stages
+[22:34:24] [modloading-worker-0/INFO] [FTB XMod Compat]: Chose [KubeJS Stages] as the active game stages implementation
+[22:34:24] [modloading-worker-0/INFO] [FTB XMod Compat]: Chose [FALLBACK] as the active permissions implementation
+[22:34:24] [modloading-worker-0/INFO] [FTB XMod Compat]: [FTB Quests] recipe helper provider is [NO-OP]
+[22:34:24] [modloading-worker-0/INFO] [FTB XMod Compat]: [FTB Chunks] Enabled Waystones integration
+[22:34:24] [main/INFO] [Moonlight]: Initialized color sets in 28ms
+[22:34:24] [main/INFO] [terrablender]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[22:34:24] [main/INFO] [terrablender]: Registered region minecraft:nether to index 0 for type NETHER
+[22:34:24] [main/INFO] [terrablender]: Registered region ars_nouveau:overworld to index 1 for type OVERWORLD
+[22:34:24] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 1/2 (Server)
+[22:34:24] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[22:34:24] [main/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 2/2 (Server)
+[22:34:24] [main/INFO] [xaero.minimap.XaeroMinimap]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[22:34:24] [modloading-worker-0/INFO] [AttributeFix]: Loaded values for 53 compatible attributes.
+[22:34:24] [modloading-worker-0/ERROR] [AttributeFix]: Attribute ID 'reach-entity-attributes:attack_range' does not belong to a known attribute. This entry will be ignored.
+[22:34:24] [modloading-worker-0/ERROR] [AttributeFix]: Attribute ID 'reach-entity-attributes:reach' does not belong to a known attribute. This entry will be ignored.
+[22:34:24] [modloading-worker-0/INFO] [AttributeFix]: Loaded 53 values from config.
+[22:34:24] [modloading-worker-0/INFO] [AttributeFix]: Saving config file. 56 entries.
+[22:34:24] [modloading-worker-0/INFO] [AttributeFix]: Applying changes for 56 attributes.
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at dev.shadowsoffire.apotheosis.spawn.compat.SpawnerHwylaPlugin
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at dev.shadowsoffire.apotheosis.ench.compat.EnchHwylaPlugin
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at dev.shadowsoffire.apotheosis.adventure.compat.AdventureHwylaPlugin
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at com.hollingsworth.arsnouveau.client.waila.WailaArsNouveauPlugin
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.lootr.LootrPlugin
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.general.GeneralPlugin
+[22:34:24] [modloading-worker-0/INFO] [Jade]: Start loading plugin at snownee.jade.addon.create.CreatePlugin
+[22:34:27] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: divine_weaponry:shadow_block Expected: 1003 Got: 3184
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: divine_weaponry:meteor Expected: 1004 Got: 3185
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: divine_weaponry:sobek_water Expected: 1005 Got: 3186
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: divine_weaponry:jotunn_ice Expected: 1006 Got: 3187
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:waystone Expected: 1009 Got: 3188
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:mossy_waystone Expected: 1010 Got: 3189
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:sandy_waystone Expected: 1011 Got: 3190
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:sharestone Expected: 1012 Got: 3191
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:warp_plate Expected: 1013 Got: 3192
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:portstone Expected: 1014 Got: 3193
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:white_sharestone Expected: 1015 Got: 3194
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:orange_sharestone Expected: 1016 Got: 3195
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:magenta_sharestone Expected: 1017 Got: 3196
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:light_blue_sharestone Expected: 1018 Got: 3197
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:yellow_sharestone Expected: 1019 Got: 3198
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:lime_sharestone Expected: 1020 Got: 3199
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:pink_sharestone Expected: 1021 Got: 3200
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:gray_sharestone Expected: 1022 Got: 3201
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:light_gray_sharestone Expected: 1023 Got: 3202
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:cyan_sharestone Expected: 1024 Got: 3203
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:purple_sharestone Expected: 1025 Got: 3204
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:blue_sharestone Expected: 1026 Got: 3205
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:brown_sharestone Expected: 1027 Got: 3206
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:green_sharestone Expected: 1028 Got: 3207
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:red_sharestone Expected: 1029 Got: 3208
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: waystones:black_sharestone Expected: 1030 Got: 3209
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: sophisticatedbackpacks:backpack Expected: 1031 Got: 3210
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: sophisticatedbackpacks:copper_backpack Expected: 1032 Got: 3211
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: sophisticatedbackpacks:iron_backpack Expected: 1033 Got: 3212
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: sophisticatedbackpacks:gold_backpack Expected: 1034 Got: 3213
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: sophisticatedbackpacks:diamond_backpack Expected: 1035 Got: 3214
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:block: Object did not get ID it asked for. Name: sophisticatedbackpacks:netherite_backpack Expected: 1036 Got: 3215
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:fluid: Object did not get ID it asked for. Name: divine_weaponry:sobek_water Expected: 5 Got: 21
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:fluid: Object did not get ID it asked for. Name: divine_weaponry:flowing_sobek_water Expected: 6 Got: 22
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:fluid: Object did not get ID it asked for. Name: sophisticatedcore:xp_still Expected: 7 Got: 23
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:fluid: Object did not get ID it asked for. Name: sophisticatedcore:xp_flowing Expected: 8 Got: 24
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_dagger Expected: 1255 Got: 4207
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_dagger Expected: 1256 Got: 4208
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_dagger Expected: 1257 Got: 4209
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_dagger Expected: 1258 Got: 4210
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_dagger Expected: 1259 Got: 4211
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_dagger Expected: 1260 Got: 4212
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:fujindagger Expected: 1261 Got: 4213
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_sickle Expected: 1262 Got: 4214
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_sickle Expected: 1263 Got: 4215
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_sickle Expected: 1264 Got: 4216
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_sickle Expected: 1265 Got: 4217
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_sickle Expected: 1266 Got: 4218
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_sickle Expected: 1267 Got: 4219
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:cernunnos_sickle Expected: 1268 Got: 4220
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_glaive Expected: 1269 Got: 4221
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_glaive Expected: 1270 Got: 4222
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_glaive Expected: 1271 Got: 4223
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_glaive Expected: 1272 Got: 4224
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_glaive Expected: 1273 Got: 4225
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_glaive Expected: 1274 Got: 4226
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:tunupa_glaive Expected: 1275 Got: 4227
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_katana Expected: 1276 Got: 4228
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_katana Expected: 1277 Got: 4229
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_katana Expected: 1278 Got: 4230
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_katana Expected: 1279 Got: 4231
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_katana Expected: 1280 Got: 4232
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_katana Expected: 1281 Got: 4233
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:apophis_katana Expected: 1282 Got: 4234
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_spear Expected: 1283 Got: 4235
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_spear Expected: 1284 Got: 4236
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_spear Expected: 1285 Got: 4237
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_spear Expected: 1286 Got: 4238
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_spear Expected: 1287 Got: 4239
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_spear Expected: 1288 Got: 4240
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:om_spear Expected: 1289 Got: 4241
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_longsword Expected: 1290 Got: 4242
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_longsword Expected: 1291 Got: 4243
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_longsword Expected: 1292 Got: 4244
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_longsword Expected: 1293 Got: 4245
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_longsword Expected: 1294 Got: 4246
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_longsword Expected: 1295 Got: 4247
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:hyperion_longsword Expected: 1296 Got: 4248
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_battleaxe Expected: 1297 Got: 4249
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_battleaxe Expected: 1298 Got: 4250
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_battleaxe Expected: 1299 Got: 4251
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_battleaxe Expected: 1300 Got: 4252
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_battleaxe Expected: 1301 Got: 4253
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_battleaxe Expected: 1302 Got: 4254
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:jotunn_battleaxe Expected: 1303 Got: 4255
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_hammer Expected: 1304 Got: 4256
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_hammer Expected: 1305 Got: 4257
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_hammer Expected: 1306 Got: 4258
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_hammer Expected: 1307 Got: 4259
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_hammer Expected: 1308 Got: 4260
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_hammer Expected: 1309 Got: 4261
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:mjollnir_hammer Expected: 1310 Got: 4262
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_scythe Expected: 1311 Got: 4263
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_scythe Expected: 1312 Got: 4264
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_scythe Expected: 1313 Got: 4265
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_scythe Expected: 1314 Got: 4266
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_scythe Expected: 1315 Got: 4267
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_scythe Expected: 1316 Got: 4268
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:erebus_scythe Expected: 1317 Got: 4269
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_cutlass Expected: 1318 Got: 4270
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_cutlass Expected: 1319 Got: 4271
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_cutlass Expected: 1320 Got: 4272
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_cutlass Expected: 1321 Got: 4273
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_cutlass Expected: 1322 Got: 4274
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_cutlass Expected: 1323 Got: 4275
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:zeus_cutlass Expected: 1324 Got: 4276
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_rapier Expected: 1325 Got: 4277
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_rapier Expected: 1326 Got: 4278
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_rapier Expected: 1327 Got: 4279
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_rapier Expected: 1328 Got: 4280
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_rapier Expected: 1329 Got: 4281
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_rapier Expected: 1330 Got: 4282
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:sobek_rapier Expected: 1331 Got: 4283
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:wooden_shuriken Expected: 1332 Got: 4284
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:stone_shuriken Expected: 1333 Got: 4285
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:iron_shuriken Expected: 1334 Got: 4286
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:golden_shuriken Expected: 1335 Got: 4287
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:diamond_shuriken Expected: 1336 Got: 4288
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:netherite_shuriken Expected: 1337 Got: 4289
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:amaterasu_shuriken Expected: 1338 Got: 4290
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:chaos_sword Expected: 1339 Got: 4291
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:shadow_block Expected: 1340 Got: 4292
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:meteor Expected: 1341 Got: 4293
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:item_mjollnirlaunch_shooter Expected: 1342 Got: 4294
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:jotunn_ice Expected: 1343 Got: 4295
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: divine_weaponry:cernunnos_target_spawn_egg Expected: 1344 Got: 4296
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:waystone Expected: 1349 Got: 4297
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:mossy_waystone Expected: 1350 Got: 4298
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:sandy_waystone Expected: 1351 Got: 4299
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:sharestone Expected: 1352 Got: 4300
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:warp_plate Expected: 1353 Got: 4301
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:portstone Expected: 1354 Got: 4302
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:white_sharestone Expected: 1355 Got: 4303
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:orange_sharestone Expected: 1356 Got: 4304
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:magenta_sharestone Expected: 1357 Got: 4305
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:light_blue_sharestone Expected: 1358 Got: 4306
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:yellow_sharestone Expected: 1359 Got: 4307
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:lime_sharestone Expected: 1360 Got: 4308
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:pink_sharestone Expected: 1361 Got: 4309
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:gray_sharestone Expected: 1362 Got: 4310
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:light_gray_sharestone Expected: 1363 Got: 4311
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:cyan_sharestone Expected: 1364 Got: 4312
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:purple_sharestone Expected: 1365 Got: 4313
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:blue_sharestone Expected: 1366 Got: 4314
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:brown_sharestone Expected: 1367 Got: 4315
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:green_sharestone Expected: 1368 Got: 4316
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:red_sharestone Expected: 1369 Got: 4317
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:black_sharestone Expected: 1370 Got: 4318
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:return_scroll Expected: 1371 Got: 4319
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:bound_scroll Expected: 1372 Got: 4320
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:warp_scroll Expected: 1373 Got: 4321
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:warp_stone Expected: 1374 Got: 4322
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:warp_dust Expected: 1375 Got: 4323
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:attuned_shard Expected: 1376 Got: 4324
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: waystones:crumbling_attuned_shard Expected: 1377 Got: 4325
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:backpack Expected: 1386 Got: 4326
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:copper_backpack Expected: 1387 Got: 4327
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:iron_backpack Expected: 1388 Got: 4328
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:gold_backpack Expected: 1389 Got: 4329
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:diamond_backpack Expected: 1390 Got: 4330
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:netherite_backpack Expected: 1391 Got: 4331
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:pickup_upgrade Expected: 1392 Got: 4332
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_pickup_upgrade Expected: 1393 Got: 4333
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:filter_upgrade Expected: 1394 Got: 4334
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_filter_upgrade Expected: 1395 Got: 4335
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:magnet_upgrade Expected: 1396 Got: 4336
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_magnet_upgrade Expected: 1397 Got: 4337
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:feeding_upgrade Expected: 1398 Got: 4338
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_feeding_upgrade Expected: 1399 Got: 4339
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:compacting_upgrade Expected: 1400 Got: 4340
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_compacting_upgrade Expected: 1401 Got: 4341
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:void_upgrade Expected: 1402 Got: 4342
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_void_upgrade Expected: 1403 Got: 4343
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:restock_upgrade Expected: 1404 Got: 4344
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_restock_upgrade Expected: 1405 Got: 4345
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:deposit_upgrade Expected: 1406 Got: 4346
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_deposit_upgrade Expected: 1407 Got: 4347
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:refill_upgrade Expected: 1408 Got: 4348
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_refill_upgrade Expected: 1409 Got: 4349
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:inception_upgrade Expected: 1410 Got: 4350
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:everlasting_upgrade Expected: 1411 Got: 4351
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:smelting_upgrade Expected: 1412 Got: 4352
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:auto_smelting_upgrade Expected: 1413 Got: 4353
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:smoking_upgrade Expected: 1414 Got: 4354
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:auto_smoking_upgrade Expected: 1415 Got: 4355
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:blasting_upgrade Expected: 1416 Got: 4356
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:auto_blasting_upgrade Expected: 1417 Got: 4357
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:crafting_upgrade Expected: 1418 Got: 4358
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:stonecutter_upgrade Expected: 1419 Got: 4359
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:stack_upgrade_starter_tier Expected: 1420 Got: 4360
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:stack_upgrade_tier_1 Expected: 1421 Got: 4361
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:stack_upgrade_tier_2 Expected: 1422 Got: 4362
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:stack_upgrade_tier_3 Expected: 1423 Got: 4363
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:stack_upgrade_tier_4 Expected: 1424 Got: 4364
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:jukebox_upgrade Expected: 1425 Got: 4365
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:tool_swapper_upgrade Expected: 1426 Got: 4366
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_tool_swapper_upgrade Expected: 1427 Got: 4367
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:tank_upgrade Expected: 1428 Got: 4368
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:battery_upgrade Expected: 1429 Got: 4369
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:pump_upgrade Expected: 1430 Got: 4370
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:advanced_pump_upgrade Expected: 1431 Got: 4371
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:xp_pump_upgrade Expected: 1432 Got: 4372
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:anvil_upgrade Expected: 1433 Got: 4373
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:item: Object did not get ID it asked for. Name: sophisticatedbackpacks:upgrade_base Expected: 1434 Got: 4374
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: divine_weaponry:wither_resistance Expected: 0 Got: 110
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: divine_weaponry:poison_resistance Expected: 34 Got: 111
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: divine_weaponry:frosted Expected: 35 Got: 112
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: divine_weaponry:dazzling Expected: 36 Got: 113
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaeroworldmap:no_world_map Expected: 37 Got: 114
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaeroworldmap:no_world_map_harmful Expected: 38 Got: 115
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaeroworldmap:no_cave_maps Expected: 39 Got: 116
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaeroworldmap:no_cave_maps_harmful Expected: 40 Got: 117
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap Expected: 100 Got: 118
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_minimap_harmful Expected: 101 Got: 119
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar Expected: 102 Got: 120
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_entity_radar_harmful Expected: 103 Got: 121
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints Expected: 104 Got: 122
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_waypoints_harmful Expected: 105 Got: 123
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps Expected: 106 Got: 124
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:mob_effect: Object did not get ID it asked for. Name: xaerominimap:no_cave_maps_harmful Expected: 107 Got: 125
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:potion: Object did not get ID it asked for. Name: divine_weaponry:wither_resistance Expected: 43 Got: 96
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:potion: Object did not get ID it asked for. Name: divine_weaponry:long_wither_resistance Expected: 44 Got: 97
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:potion: Object did not get ID it asked for. Name: divine_weaponry:poison_resistance Expected: 45 Got: 98
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:potion: Object did not get ID it asked for. Name: divine_weaponry:long_poison_resistance Expected: 46 Got: 99
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:potion: Object did not get ID it asked for. Name: divine_weaponry:frosting Expected: 47 Got: 100
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:potion: Object did not get ID it asked for. Name: divine_weaponry:long_frosting Expected: 48 Got: 101
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:potion: Object did not get ID it asked for. Name: divine_weaponry:strong_frosting Expected: 49 Got: 102
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:projectile_wooden_shuriken Expected: 124 Got: 255
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:projectile_stone_shuriken Expected: 125 Got: 256
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:projectile_iron_shuriken Expected: 126 Got: 257
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:projectile_golden_shuriken Expected: 127 Got: 258
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:projectile_diamond_shuriken Expected: 128 Got: 259
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:projectile_netherite_shuriken Expected: 129 Got: 260
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:projectile_amaterasu_shuriken Expected: 130 Got: 261
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:projectile_item_mjollnirlaunch_shooter Expected: 131 Got: 262
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:apophis_follower Expected: 132 Got: 263
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:fujin_cloud Expected: 133 Got: 264
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:erebus_wither Expected: 134 Got: 265
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:ice_wall Expected: 135 Got: 266
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: divine_weaponry:cernunnos_target Expected: 136 Got: 267
+[22:34:27] [main/WARN] [net.minecraftforge.registries.ForgeRegistry]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: sophisticatedbackpacks:everlasting_backpack_item Expected: 141 Got: 268
+[22:34:29] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner]: Attempted to load class com/mojang/blaze3d/vertex/PoseStack for invalid dist DEDICATED_SERVER
+[22:34:29] [main/INFO] [KubeJS Server]: example.js#5: Hello, World! (Loaded server scripts)
+[22:34:29] [main/INFO] [KubeJS Server]: Loaded script server_scripts:example.js in 0.001 s
+[22:34:29] [main/INFO] [KubeJS Server]: Loaded 1/1 KubeJS server scripts in 0.015 s with 0 errors and 0 warnings
+[22:34:29] [main/INFO] [KubeJS Server]: Scripts loaded
+[22:34:30] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/server/commands/EnchantCommand
+[22:34:31] [main/INFO] [placebo]: Registered 33 additional loot tables.
+[22:34:31] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 60 recipes
+[22:34:31] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 4523 advancements
+[22:34:31] [main/INFO] [placebo]: Registered 27 additional recipes.
+[22:34:31] [main/WARN] [Apotheosis : Enchantment]: Enchantment dimdoors:string_theory has min/max power 10000/200 at level 1, making this level unobtainable.
+[22:34:31] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 12 curio slots
+[22:34:31] [main/INFO] [top.theillusivec4.curios.Curios]: Loaded 1 curio entities
+[22:34:31] [main/INFO] [Diet]: Loaded 5 diet groups
+[22:34:31] [main/INFO] [Diet]: Loaded 1 diet suites
+[22:34:32] [main/INFO] [placebo]: Registered 16 gear_sets.
+[22:34:32] [main/INFO] [Apotheosis : Enchantment]: Registered 29 enchanting_stats.
+[22:34:32] [main/INFO] [Apotheosis : Adventure]: Registered 6 rarities.
+[22:34:32] [main/INFO] [Apotheosis : Adventure]: Registered 82 affixes.
+[22:34:32] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category helmetRequired: 3; Provided: 2
+[22:34:32] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:mythic for category bootsRequired: 3; Provided: 2
+[22:34:32] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category helmetRequired: 4; Provided: 2
+[22:34:32] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bootsRequired: 4; Provided: 2
+[22:34:32] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category bowRequired: 5; Provided: 4
+[22:34:32] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category crossbowRequired: 5; Provided: 4
+[22:34:32] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category pickaxeRequired: 5; Provided: 4
+[22:34:32] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shovelRequired: 5; Provided: 4
+[22:34:32] [main/ERROR] [Apotheosis : Adventure]: Insufficient number of affixes to satisfy the loot rules (ignoring backup rules) of rarity apotheosis:ancient for category shieldRequired: 5; Provided: 4
+[22:34:32] [main/INFO] [Apotheosis : Adventure]: Registered 19 gems.
+[22:34:32] [main/INFO] [Apotheosis : Adventure]: Registered 67 affix_loot_entries.
+[22:34:32] [main/INFO] [Apotheosis : Adventure]: Registered 17 bosses.
+[22:34:32] [main/INFO] [Apotheosis : Adventure]: Registered 8 rogue_spawners.
+[22:34:32] [main/INFO] [Apotheosis : Adventure]: Registered 5 minibosses.
+[22:34:32] [main/INFO] [Apotheosis : Village]: Registered 28 wanderer_trades.
+[22:34:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[22:34:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[22:34:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[22:34:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[22:34:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[22:34:34] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using default channel type
+[22:34:34] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:34:34] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[22:34:34] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:34:34] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:34:34] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-735 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.2.32, NeoForge version 47.1.105)
+[22:34:35] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[22:34:35] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[22:34:35] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Configuration file .\world\serverconfig\sophisticatedbackpacks-server.toml is not correct. Correcting
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.disallowedItems was corrected from null to its default, []. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.containerItemsDisallowed was corrected from null to its default, false. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.noInteractionBlocks was corrected from null to its default, []. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.noConnectionBlocks was corrected from null to its default, []. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.leatherBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.leatherBackpack.inventorySlotCount was corrected from null to its default, 27. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.leatherBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.copperBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.copperBackpack.inventorySlotCount was corrected from null to its default, 45. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.copperBackpack.upgradeSlotCount was corrected from null to its default, 1. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.ironBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.ironBackpack.inventorySlotCount was corrected from null to its default, 54. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.ironBackpack.upgradeSlotCount was corrected from null to its default, 2. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.goldBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.goldBackpack.inventorySlotCount was corrected from null to its default, 81. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.goldBackpack.upgradeSlotCount was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.diamondBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.diamondBackpack.inventorySlotCount was corrected from null to its default, 108. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.diamondBackpack.upgradeSlotCount was corrected from null to its default, 5. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.netheriteBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.netheriteBackpack.inventorySlotCount was corrected from null to its default, 120. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.netheriteBackpack.upgradeSlotCount was corrected from null to its default, 7. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.compactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.compactingUpgrade.filterSlots was corrected from null to its default, 9. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.compactingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedCompactingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedCompactingUpgrade.filterSlots was corrected from null to its default, 16. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedCompactingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.depositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.depositUpgrade.filterSlots was corrected from null to its default, 9. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.depositUpgrade.slotsInRow was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedDepositUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedDepositUpgrade.filterSlots was corrected from null to its default, 16. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedDepositUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.feedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.feedingUpgrade.filterSlots was corrected from null to its default, 9. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.feedingUpgrade.slotsInRow was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedFeedingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedFeedingUpgrade.filterSlots was corrected from null to its default, 16. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedFeedingUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.filterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.filterUpgrade.filterSlots was corrected from null to its default, 9. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.filterUpgrade.slotsInRow was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedFilterUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedFilterUpgrade.filterSlots was corrected from null to its default, 16. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedFilterUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.magnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.magnetUpgrade.filterSlots was corrected from null to its default, 9. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.magnetUpgrade.slotsInRow was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.magnetUpgrade.magnetRange was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedMagnetUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedMagnetUpgrade.filterSlots was corrected from null to its default, 16. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedMagnetUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedMagnetUpgrade.magnetRange was corrected from null to its default, 5. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.pickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.pickupUpgrade.filterSlots was corrected from null to its default, 9. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.pickupUpgrade.slotsInRow was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedPickupUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedPickupUpgrade.filterSlots was corrected from null to its default, 16. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedPickupUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.refillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.refillUpgrade.filterSlots was corrected from null to its default, 6. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.refillUpgrade.slotsInRow was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedRefillUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedRefillUpgrade.filterSlots was corrected from null to its default, 12. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedRefillUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.restockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.restockUpgrade.filterSlots was corrected from null to its default, 9. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.restockUpgrade.slotsInRow was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedRestockUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedRestockUpgrade.filterSlots was corrected from null to its default, 16. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedRestockUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.voidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.voidUpgrade.filterSlots was corrected from null to its default, 9. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.voidUpgrade.slotsInRow was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.voidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedVoidUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedVoidUpgrade.filterSlots was corrected from null to its default, 16. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedVoidUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.advancedVoidUpgrade.voidAnythingEnabled was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.stackUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.stackUpgrade.nonStackableItems was corrected from null to its default, [minecraft:bundle, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.smeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.smeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.smeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.smokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.smokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.smokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.blastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.blastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.blastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmeltingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmeltingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmeltingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmeltingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmeltingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmokingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmokingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmokingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmokingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmokingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoSmokingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoBlastingUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoBlastingUpgrade.smeltingSpeedMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoBlastingUpgrade.fuelEfficiencyMultiplier was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoBlastingUpgrade.inputFilterSlots was corrected from null to its default, 8. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoBlastingUpgrade.inputFilterSlotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlots was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.autoBlastingUpgrade.fuelFilterSlotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.inceptionUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.inceptionUpgrade.upgradesUseInventoriesOfBackpacksInBackpack was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.inceptionUpgrade.upgradesInContainedBackpacksAreFunctional was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.toolSwapperUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.toolSwapperUpgrade.filterSlots was corrected from null to its default, 8. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.toolSwapperUpgrade.slotsInRow was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.tankUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.tankUpgrade.capacityPerSlotRow was corrected from null to its default, 4000. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.tankUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.tankUpgrade.autoFillDrainContainerCooldown was corrected from null to its default, 20. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.tankUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.tankUpgrade.energyPerSlotRow was corrected from null to its default, 10000. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.pumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.pumpUpgrade.filterSlots was corrected from null to its default, 4. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.pumpUpgrade.maxInputOutput was corrected from null to its default, 20. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.pumpUpgrade.stackMultiplierRatio was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.xpPumpUpgrade was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.xpPumpUpgrade.mendingOn was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.xpPumpUpgrade.maxXpPointsPerMending was corrected from null to its default, 5. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.chance was corrected from null to its default, 0.01. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.addLoot was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.buffWithPotionEffects was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.buffHealth was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.equipWithArmor was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.entityLootTableList was corrected from null to its default, [minecraft:creeper|minecraft:chests/desert_pyramid, minecraft:drowned|minecraft:chests/shipwreck_treasure, minecraft:enderman|minecraft:chests/end_city_treasure, minecraft:evoker|minecraft:chests/woodland_mansion, minecraft:husk|minecraft:chests/desert_pyramid, minecraft:piglin|minecraft:chests/bastion_bridge, minecraft:piglin_brute|minecraft:chests/bastion_treasure, minecraft:pillager|minecraft:chests/pillager_outpost, minecraft:skeleton|minecraft:chests/simple_dungeon, minecraft:stray|minecraft:chests/igloo_chest, minecraft:vex|minecraft:chests/woodland_mansion, minecraft:vindicator|minecraft:chests/woodland_mansion, minecraft:witch|minecraft:chests/buried_treasure, minecraft:wither_skeleton|minecraft:chests/nether_bridge, minecraft:zombie|minecraft:chests/simple_dungeon, minecraft:zombie_villager|minecraft:chests/village/village_armorer, minecraft:zombified_piglin|minecraft:chests/bastion_other]. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.discBlockList was corrected from null to its default, [botania:record_gaia_1, botania:record_gaia_2]. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.playJukebox was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.dropToFakePlayers was corrected from null to its default, false. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.backpackDropChance was corrected from null to its default, 0.5. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.entityBackpackAdditions.lootingChanceIncreasePerLevel was corrected from null to its default, 0.15. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.nerfs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.nerfs.tooManyBackpacksSlowness was corrected from null to its default, false. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.nerfs.maxNumberOfBackpacks was corrected from null to its default, 3. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.nerfs.slownessLevelsPerAdditionalBackpack was corrected from null to its default, 1.0. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.nerfs.onlyWornBackpackTriggersUpgrades was corrected from null to its default, false. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.maxUpgradesPerStorage was corrected from null to its default, [jukebox_upgrade|1, stack_upgrades|3, furnace_upgrades|1]. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.itemFluidHandlerEnabled was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.allowOpeningOtherPlayerBackpacks was corrected from null to its default, true. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.itemDisplayDisabled was corrected from null to its default, false. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.tickDedupeLogicDisabled was corrected from null to its default, false. 
+[22:34:35] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec]: Incorrect key server.canBePlacedInContainerItems was corrected from null to its default, false. 
+[22:34:35] [Server thread/INFO] [FTB Teams]: loaded team data: 0 known players, 0 teams total
+[22:34:35] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[22:34:35] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[22:34:35] [Server thread/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[22:34:35] [Server thread/INFO] [spark]: Starting background profiler...
+[22:34:35] [Server thread/INFO] [spark]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[22:34:36] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[22:34:36] [Server thread/INFO] [terrablender]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[22:34:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[22:34:36] [Server thread/INFO] [com.cupboard.Cupboard]: Loaded config for: betterchunkloading.json
+[22:34:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[22:34:38] [Server thread/INFO] [KubeJS Server]: Server resource reload complete!
+[22:34:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:42] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:43] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 4695 ms
+[22:34:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[22:34:45] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:45] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:45] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:45] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:45] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:45] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:46] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:46] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3187 ms
+[22:34:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[22:34:48] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:48] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:48] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:48] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:48] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:48] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:49] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:49] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3172 ms
+[22:34:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension dimdoors:limbo
+[22:34:51] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:51] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:51] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:51] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:51] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:51] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:52] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:52] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:53] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3756 ms
+[22:34:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension dimdoors:personal_pockets
+[22:34:55] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:55] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:55] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:55] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:55] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:55] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:56] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:56] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3087 ms
+[22:34:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension dimdoors:public_pockets
+[22:34:58] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:58] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:58] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:58] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:58] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:58] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:34:59] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2923 ms
+[22:34:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension mahoutsukai:reality_marble
+[22:35:01] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:01] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:01] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:01] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:01] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:01] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:02] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3073 ms
+[22:35:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension dimdoors:dungeon_pockets
+[22:35:04] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:04] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:04] [Worker-Main-5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:04] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:04] [Worker-Main-7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:04] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:05] [Worker-Main-6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:35:05] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 3132 ms
+[22:35:06] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[22:35:06] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[22:35:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (30.656s)! For help, type "help"
+[22:35:06] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[22:35:06] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[22:35:06] [Server thread/INFO] [xaero.map.WorldMap]: Registered synced player tracker system: ftb_teams
+[22:35:06] [Server thread/INFO] [xaero.common.MinimapLogs]: Registered synced player tracker system: ftb_teams
+[22:35:06] [Server thread/INFO] [Diet]: Generating diet values...
+[22:35:06] [Server thread/INFO] [Diet]: Finding ungrouped food items...
+[22:35:06] [Server thread/INFO] [Diet]: Found 84 ungrouped food items
+[22:35:06] [Server thread/INFO] [Diet]: Building item-to-recipes map...
+[22:35:06] [Server thread/INFO] [Diet]: Found 3373 valid items with recipes
+[22:35:06] [Server thread/INFO] [Diet]: Processing items...
+[22:35:06] [Server thread/INFO] [Diet]: Processed 131 items
+[22:35:06] [Server thread/INFO] [Diet]: Generating diet values took 42.33 ms
+[22:35:06] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry]: Encoded Weapon Attribute registry size (with package overhead): 79587 bytes (in 8 string chunks with the size of 10000)
+[22:35:06] [Server thread/INFO] [com.cupboard.Cupboard]: Loaded config for: chunksending.json
+[22:35:06] [Server thread/INFO] [patchouli]: Sending reload packet to clients
+[22:35:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Radius changed to 200.
+[22:35:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task started in minecraft:overworld for the square region centered at 0, 0 with radius 200.
+[22:35:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 146 chunks (20,03%), ETA: 0:00:05, Rate: 100,3 cps, Current: 1, 12
+[22:35:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 201 chunks (27,57%), ETA: 0:00:06, Rate: 81,6 cps, Current: 12, 3
+[22:35:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 307 chunks (42,11%), ETA: 0:00:05, Rate: 83,3 cps, Current: 11, -12
+[22:35:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 322 chunks (44,17%), ETA: 0:00:05, Rate: 68,5 cps, Current: 9, 13
+[22:35:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 339 chunks (46,50%), ETA: 0:00:06, Rate: 56,0 cps, Current: 13, 4
+[22:35:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 422 chunks (57,89%), ETA: 0:00:05, Rate: 59,5 cps, Current: -8, -12
+[22:35:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 464 chunks (63,65%), ETA: 0:00:04, Rate: 56,0 cps, Current: 13, -4
+[22:35:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 487 chunks (66,80%), ETA: 0:00:04, Rate: 52,2 cps, Current: -13, -6
+[22:35:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 685 chunks (93,96%), ETA: 0:00:00, Rate: 66,0 cps, Current: -12, 2
+[22:35:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task running for minecraft:overworld. Processed: 711 chunks (97,53%), ETA: 0:00:00, Rate: 62,1 cps, Current: -13, 7
+[22:35:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Chunky] Task finished for minecraft:overworld. Processed: 729 chunks (100,00%), Total time: 0:00:12
+[22:38:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: TeriIM joined the game
+[22:38:39] [Server thread/INFO] [Jade]: Syncing config to TeriIM (6f7c739f-61e3-38d7-abe8-3705845f798a)
+[22:38:40] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: TeriIM[/[::1]:55402] logged in with entity id 1004 at ([world]9.5, 66.0, 8.5)
+[22:38:47] [Server thread/INFO] [do_a_barrel_roll]: Client of TeriIM accepted server config.
+[22:41:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Made TeriIM a server operator
+[22:41:14] [Server thread/INFO] [do_a_barrel_roll]: Client of TeriIM accepted server config.
+[22:43:23] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: TeriIM lost connection: Disconnected
+[22:43:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: TeriIM left the game

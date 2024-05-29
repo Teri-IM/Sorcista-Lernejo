@@ -1,0 +1,34 @@
+worlds:
+  world:
+    worldborder: 5.9999968E7
+    seed: 8529213997101706382
+    environment: NORMAL
+    name: world
+    info: -/-
+    difficulty: EASY
+    mohist: false
+    keepspawninmemory: true
+  DIM-1:
+    worldborder: 5.9999968E7
+  DIM1:
+    worldborder: 5.9999968E7
+  public_pockets:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: dimdoors
+  limbo:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: dimdoors
+  dungeon_pockets:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: dimdoors
+  personal_pockets:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: dimdoors
+  reality_marble:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: mahoutsukai
