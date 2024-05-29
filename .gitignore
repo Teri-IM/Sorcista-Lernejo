@@ -1,4 +1,7 @@
-.minecraft/mods/.connector
-.minecraft/saves
-.minecraft/logs
-.minecraft/scrinshots
+client/mods/.connector
+client/saves
+client/logs
+client/scrinshots
+server/logs
+server/crash-reports
+server/world
