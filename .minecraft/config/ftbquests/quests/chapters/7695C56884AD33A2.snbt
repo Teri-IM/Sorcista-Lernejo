@@ -1,0 +1,141 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7695C56884AD33A2"
+	group: ""
+	id: "7695C56884AD33A2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "01DDF918F841CF48"
+			rewards: [{
+				id: "60A182880759CBBB"
+				item: "minecraft:music_disc_11"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "dimdoors:dungeon_pockets"
+				icon: "dimdoors:item_ag_dim_create_framed_glass_door"
+				id: "767DE772B3A8F494"
+				title: "Это что за арка?"
+				type: "dimension"
+			}]
+			title: "Что за дивный лабиринт"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5AD60334638ED90A"
+			tasks: [{
+				id: "4B6355CDDDC3C934"
+				stat: "dimdoors:times_been_to_dungeon"
+				title: "Всё бывает в первый раз"
+				type: "stat"
+				value: 1
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "651D2F2573150406"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "3F67A4D62FBBDCEF"
+				title: "Каждому по луту"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "091E80B2DA391C71"
+			tasks: [{
+				dimension: "dimdoors:public_pockets"
+				icon: "minecraft:cake"
+				id: "54C54B2CEDE91B65"
+				title: "Добро пожаловать в хаб"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "3F65951C95DEFFB5"
+			tasks: [{
+				entity: "ars_elemental:water_mage"
+				id: "4DAB2764004B1276"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Мокрый чувак"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "37453ABB42A9FF7D"
+			tasks: [{
+				entity: "ars_elemental:fire_mage"
+				id: "2E155196F26657D0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Горячий чувак"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "610452BEA3A3CB0B"
+			tasks: [{
+				entity: "ars_elemental:earth_mage"
+				id: "4413CAB7F69797D1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Земляк"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "43C51AB7F96EA389"
+			tasks: [{
+				entity: "ars_elemental:air_mage"
+				id: "5A9F935220692257"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Неуловимое дуновение"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "736CA7B74EA97ACE"
+			tasks: [{
+				icon: "minecraft:trapped_chest"
+				id: "1C943A12D35733AB"
+				stat: "minecraft:trigger_trapped_chest"
+				type: "stat"
+				value: 1
+			}]
+			title: "Попался?"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["736CA7B74EA97ACE"]
+			id: "07349FA711CC0319"
+			tasks: [{
+				icon: "minecraft:ender_chest"
+				id: "39AC03D3C8202E8A"
+				stat: "minecraft:trigger_trapped_chest"
+				type: "stat"
+				value: 50
+			}]
+			title: "Прошареный"
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "Путешествия"
+}
